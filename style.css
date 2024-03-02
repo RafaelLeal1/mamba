@@ -1,0 +1,192 @@
+/* Cores */
+body {
+    background-color: #272822;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #f94144;
+}
+
+a {
+    color: #f94144;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tipografia */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Estrutura */
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5%;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    text-align: justify;
+}
+
+.ficha-identificacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ficha-identificacao aside {
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #f94144;
+    border-radius: 10px;
+}
+.ficha-identificacao aside img {
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(20%, 1%);
+}
+
+.ficha-identificacao aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ficha-identificacao aside li {
+    margin-bottom: 5px;
+}
+
+.ficha-identificacao aside strong {
+    font-weight: bold;
+}
+
+.carreira p {
+    text-align: justify;
+}
+
+.carreira ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.carreira ul li {
+    margin-bottom: 5px;
+}
+
+.conquistas {
+    text-align: center;
+}
+
+.conquistas table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.conquistas table th, td {
+    border: 1px solid #f94144;
+    padding: 5px;
+}
+
+.outras-informacoes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outras-informacoes ul li {
+    margin-bottom: 5px;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mídia */
+.video-container {
+    position: relative;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Rodapé */
+footer {
+    background-color: #272822;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .ficha-identificacao {
+        display: block;
+    }
+
+    .ficha-identificacao aside {
+        margin-left: 0;
+    }
+
+    .conquistas table {
+        width: 100%;
+    }
+}
